@@ -2,8 +2,8 @@
   "basics": {
     "name": "Ali ZAABAT",
     "label": "Développeur fullstack Java/Angular",
-    "image": "/public/me.png",
-    "email": "zaabat-ali@hotmail.fr",
+    "image": "me.png",
+    "email": "",
     "phone": "",
     "url": "",
     "summary": "Développeur Full Stack Java/Angular passionné, spécialisé dans la conception d'applications modernes et performantes. Grâce à mes expériences en développement métier et en automatisation des tests, je mets mes compétences techniques au service de projets innovants.",
@@ -43,14 +43,10 @@
         "Gestion du versionnement du code via GitLab (branches, merges, pull requests) pour une collaboration efficace en équipe.",
         "Déploiement et suivi des applications en environnement de production sur Red Hat OpenShift, en assurant la stabilité et la disponibilité des solutions."
       ],
-      "achievements": [
-        "Developing and maintaining web applications using JavaScript, HTML, and CSS. Collaborating with the team to implement new features and fix bugs."
-      ],
       "skills": [
         "Angular",
         "SpringBoot",
-        "GitLab",
-        "Agile"
+        "Gitlab"
       ]
     },
     {
@@ -73,22 +69,22 @@
         "Assurer une veille technologique afin de détecter les nouvelles possibilités techniques et fonctionnelles offertes par le marché"
       ],
       "skills": [
-        "PHP",
+        "Php",
         "Symfony",
-        "Git"
+        "JavaScript"
       ]
     }
   ],
   "volunteer": [
     {
-      "organization": "Local Coding Club",
-      "position": "Volunteer",
-      "url": "https://codingclub.com/",
-      "startDate": "2021-01-01",
-      "endDate": "2022-01-01",
-      "summary": "Helped organize coding workshops and mentored new members.",
+      "organization": "",
+      "position": "",
+      "url": "",
+      "startDate": "",
+      "endDate": "",
+      "summary": "",
       "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        ""
       ]
     }
   ],
@@ -132,8 +128,7 @@
     {
       "name": " Titre Professionnel Concepteur développeur d'application ",
       "date": "2024",
-      "issuer": "Wild Code School",
-      "url": "https://onlineuniversity.com/certificates/fullstack"
+      "issuer": "Wild Code School"
     }
   ],
   "skills": [
@@ -231,12 +226,23 @@
       ]
     },
     {
-      "name": "Spring Boot",
+      "name": "SpringBoot",
       "level": "Intermediate",
       "keywords": [
         "Web Development",
         "Backend",
-        "React Framework",
+        "Java Framework",
+        "SSR",
+        "Static Generation"
+      ]
+    },
+    {
+      "name": "Angular",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development",
+        "Frontend",
+        "JavaScript Framework",
         "SSR",
         "Static Generation"
       ]

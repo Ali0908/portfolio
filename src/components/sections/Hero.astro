@@ -9,8 +9,12 @@ import GitHub from "@/icons/GitHub.astro";
 import WorldMap from "@/icons/WorldMap.astro";
 import type { SocialIcon } from "@/types";
 
-const { name, label, image, location, profiles, phone, email } = basics;
-const { city, region } = location;
+
+const emailEnv = import.meta.env.PUBLIC_MAIL;
+
+let { name, label, image, location, profiles, phone, email } = basics;
+email = emailEnv; // Assign emailEnv to email
+const { city} = location;
 
 const SOCIAL_ICONS: SocialIcon = {
 	GitHub,
@@ -31,7 +35,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 			<h2>{label}</h2>
 			<div class="flex items-center gap-2 pt-2 text-sm text-skin-muted">
 				<WorldMap />
-				{city}, {region}
+				{city}
 			</div>
 			<footer class="print">
 				{printInfo}
