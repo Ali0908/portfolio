@@ -10,10 +10,8 @@ import WorldMap from "@/icons/WorldMap.astro";
 import type { SocialIcon } from "@/types";
 
 
-const emailEnv = import.meta.env.PUBLIC_MAIL;
 
 let { name, label, image, location, profiles, phone, email } = basics;
-email = emailEnv; // Assign emailEnv to email
 const { city} = location;
 
 const SOCIAL_ICONS: SocialIcon = {
